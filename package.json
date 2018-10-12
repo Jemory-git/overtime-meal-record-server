@@ -1,0 +1,17 @@
+{
+  "name": "overtime-meal-record-server",
+  "version": "1.0.0",
+  "description": "加班餐记录",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "koa": "^2.5.3",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
