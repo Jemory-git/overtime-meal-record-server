@@ -37,7 +37,7 @@ app.use(router.routes());
 // 读取ssl证书文件
 var options = {
     key: fs.readFileSync('./ssl/jemory.cn.key'), //ssl文件路径
-    cert: fs.readFileSync('./ssl/jemory.cn.pem') //ssl文件路径
+    cert: fs.readFileSync('./ssl/jemory.cn.crt') //ssl文件路径
 };
 
 // 开启服务
